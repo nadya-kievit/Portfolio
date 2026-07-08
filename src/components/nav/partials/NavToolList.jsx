@@ -42,7 +42,6 @@ function NavToolList({ expanded }) {
             {visibleWidgets.map((item, key) => (
                 <div className={`nav-tools-item`}
                      key={key}>
-                    {item === "language" && (<NavToolLanguagePicker/>)}
                     {item === NavToolSettings.Options.THEME && (<NavToolThemePicker/>)}
                     {item === NavToolSettings.Options.DOWNLOAD_RESUME && (<NavToolResumeDownloader/>)}
                 </div>

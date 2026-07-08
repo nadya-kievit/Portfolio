@@ -34,10 +34,6 @@ function NavProfileCard({ profile, expanded }) {
         profile.statusCircleVariant :
         ""
 
-    const statusCircleHoverMessage = statusCircleVisible ?
-        language.getTranslation(profile.locales, profile.statusCircleHoverMessage) :
-        null
-
     const statusCircleSize = expanded ?
         StatusCircle.Sizes.DEFAULT :
         StatusCircle.Sizes.SMALL
@@ -60,13 +56,6 @@ function NavProfileCard({ profile, expanded }) {
                        className={`nav-profile-card-avatar`}
                        hideSpinner={true}
                        alt={name}/>
-
-            {statusCircleVisible && (
-                <StatusCircle className={`nav-profile-card-status-circle`}
-                              variant={statusCircleVariant}
-                              message={statusCircleHoverMessage}
-                              size={statusCircleSize} onClick={_onStatusBadgeClicked}/>
-            )}
 
             <div className={`nav-profile-card-info`}>
                 <h1 className={`nav-profile-card-name ${navProfileCardNameClass}`}>
