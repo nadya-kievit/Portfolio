@@ -10,9 +10,7 @@ function NavLinkList({ links, expanded }) {
     const utils = useUtils()
 
     const data = {expanded}
-    const shrinkClass = expanded ?
-        `` :
-        `nav-link-list-shrink`
+    const shrinkClass = ``
 
     useEffect(() => {
         const navLinkList = document.querySelector(`.nav-link-list`)

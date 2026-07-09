@@ -18,9 +18,7 @@ function NavToolList({ expanded }) {
     const profile = data.getProfile()
     const maxWidgets = expanded ? 4 : 2
 
-    const shrinkClass = expanded ?
-        `` :
-        `nav-tools-shrink`
+    const shrinkClass = ``
 
     const widgets = [
         ...(language.supportsMultipleLanguages ? ["language"] : []),

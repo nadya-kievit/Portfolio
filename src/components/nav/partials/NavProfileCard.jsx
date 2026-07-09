@@ -14,9 +14,7 @@ function NavProfileCard({ profile, expanded }) {
     const navigation = useNavigation()
     const utils = useUtils()
 
-    const expandedClass = expanded ?
-        `` :
-        `nav-profile-card-shrink`
+    const expandedClass = ``
 
     const name = profile.name
     const stylizedName = language.getTranslation(profile.locales, "localized_name_stylized", null) ||

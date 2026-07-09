@@ -33,12 +33,12 @@ function NavSidebar({ profile, links }) {
 
     return (
         <nav className={`nav-sidebar ${constants.HTML_CLASSES.scrollbarDecorator} ${shrinkClass}`}>
-            <Card className={`nav-sidebar-card-wrapper`}>
-                {!shouldForceShrink && (
-                    <NavToolShrinkToggle expanded={expandedOption}
-                                         setExpanded={setExpandedOption}/>
-                )}
+            {!shouldForceShrink && (
+                <NavToolShrinkToggle expanded={expandedOption}
+                                     setExpanded={setExpandedOption}/>
+            )}
 
+            <Card className={`nav-sidebar-card-wrapper`}>
                 <NavProfileCard profile={profile}
                                 expanded={expanded}/>
 

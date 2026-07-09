@@ -4,19 +4,26 @@ nav.nav-sidebar {
     --width: 280px;
 
     display: flex;
+    width: var(--width);
+    min-width: var(--width);
+    overflow: visible;
+    position: relative;
     z-index: $z-index-sidebar;
+    transition: width 0.4s ease-in-out, min-width 0.4s ease-in-out;
     @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
         display: none;
     }
 
     div.nav-sidebar-card-wrapper {
-        width: var(--width);
-        min-width: var(--width);
+        width: 280px;
+        min-width: 280px;
         height: 100%;
         position: relative;
 
         display: flex;
         flex-direction: column;
+        transform: translateX(0);
+        transition: transform 0.4s ease-in-out;
     }
 
     button.nav-sidebar-btn-toggle {
@@ -24,19 +31,20 @@ nav.nav-sidebar {
         right: -15px;
         top: 65px;
         z-index: calc($z-index-sidebar + 1);
+        transition: top 0.15s ease-in-out, right 0.15s ease-in-out;
     }
 }
 
 nav.nav-sidebar-shrink {
-    --width: 120px;
+    --width: 0px;
 
     div.nav-sidebar-card-wrapper {
-        width: var(--width);
-        min-width: var(--width);
+        transform: translateX(calc(-100% - 8px));
     }
 
     button.nav-sidebar-btn-toggle {
-        top: 40px;
-        right: -16px;
+        top: 65px;
+        right: -50px;
+        transition-delay: 0.25s;
     }
 }

@@ -9,9 +9,7 @@ function NavToolShrinkToggle({ expanded, setExpanded }) {
         "fa-solid fa-caret-left" :
         "fa-solid fa-caret-right"
 
-    const size = expanded ?
-        CircularButton.Sizes.LARGE :
-        CircularButton.Sizes.SMALL
+    const size = CircularButton.Sizes.EXTRA_LARGE
 
     return (
         <CircularButton onClick={() => { setExpanded(!expanded) }}
