@@ -101,7 +101,7 @@
                     "locales": {
                         "en": {
                             "title": "Pin Victoria",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "text": "",
                             "tags": ["React", "Organization", "Notes"]
                         }
                     }
