@@ -35,54 +35,45 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {"href": "https://github.com/nadya-kievit/Hiking-Trails-Web-App", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            "images/pictures/hiking-trails-web-app.png"
                         ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                        "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
                             "title": "Hiking Trails",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
+                            "text": "A full-stack, single page web app for viewing and recording hiking trails in Victoria, BC. HTML, Javascript, and CSS frontend, Java backend, SQL database, and JUnit tests.",
+                            "tags": ["Web App", "Unit Tests", "Database"]
                         }
                     }
                 },
                 {
                     "id": 2,
                     "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "img": "images/pictures/blokus-logo.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://github.com/nadya-kievit/Blokus", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://blokus-liard.vercel.app/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
+                            "images/pictures/blokus-1.png",
+                            "images/pictures/blokus-3.png",
+                            "images/pictures/blokus-2.png",
+                            "images/pictures/blokus-4.png"
                         ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                        "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
                             "title": "Blokus",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "text": "A web app for the popular game [[Blokus]]. Phase 1 of the game has been deployed and can be reach at the link below - keep an eye out for new updates ᵔ ᵕ ᵔ",
+                            "tags": ["React", "Vite", "FastAPI", "WebSockets", "Python", "JavaScript"]
                         }
                     }
                 },
@@ -94,7 +85,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://github.com/nadya-kievit/Pin-Victoria", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
                             {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
