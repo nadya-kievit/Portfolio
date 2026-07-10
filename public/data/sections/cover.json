@@ -60,7 +60,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "Coming soon..."
+                            "text": "I’m a [[Computer Science]] student at the University of Victoria, graduating in summer 2026, with [[16 months of full-stack development experience]] through two co-op positions. During my most recent co-op, I developed a strong interest in [[UI/UX and front-end development]]. I enjoy combining analytical problem-solving with creativity and seeing an idea move from an initial design to a real, interactive product. This has drawn me toward areas such as web development, interactive applications, and game development.<p><p>I’ve always been drawn to games, puzzles, and systems with clear rules that can be explored through different strategies—an interest that eventually helped lead me to software development. Outside of coding, I’m usually hiking, biking, camping, weightlifting, or discovering a new beach or lake around Vancouver Island with my partner. I’m currently based in Victoria, BC."
                         }
                     }
                 }
@@ -88,7 +88,7 @@
                     "locales": {
                         "en": {
                             "title": "Reading",
-                            "text": "..."
+                            "text": "I have read 24 books this year. Reading is how I live hundreds of lives in one lifetime, and how I reduce my screen time.<p><p>Favorites this year: [[Where the Crawdads Sing]], [[Hail Mary]], and [[Black Butterflies]]."
                         }
                     }
                 },
@@ -102,7 +102,7 @@
                     "locales": {
                         "en": {
                             "title": "Weight Lifting",
-                            "text": "..."
+                            "text": "Lifting weights keeps me sane during the highs and lows of life, and recently I've invested in a home gym setup. My peak was deadlifting [[255lb]] for 8 reps, and I have the video to prove it."
                         }
                     }
                 },
@@ -116,7 +116,7 @@
                     "locales": {
                         "en": {
                             "title": "Gaming",
-                            "text": "..."
+                            "text": "I love playing card and board games with friends or family. Over time my partner has dragged me over to the world of video games as well. This crossover is what inspired me to turn one of my favorite board games, [[Blokus]], into a web game."
                         }
                     }
                 },
@@ -130,7 +130,7 @@
                     "locales": {
                         "en": {
                             "title": "{{UX}} design",
-                            "text": "..."
+                            "text": "I'm currently pursuing this new interest through personal projects - [[Blokus]] and [[Pin Victoria]]."
                         }
                     }
                 },
@@ -145,7 +145,7 @@
                     "locales": {
                         "en": {
                             "title": "Cooking",
-                            "text": "..."
+                            "text": "Cooking is art for the senses, and another creative outlet. I enjoy trying new recipes, or designing my own. Current obsessions have been [[chili oil noodles]] and [[chickpea tikka masala]]"
                         }
                     }
                 },
@@ -159,7 +159,7 @@
                     "locales": {
                         "en": {
                             "title": "Learning Portuguese",
-                            "text": "..."
+                            "text": "My goal is to be completely fluent so I can communicate well with my partners family."
                         }
                     }
                 }
