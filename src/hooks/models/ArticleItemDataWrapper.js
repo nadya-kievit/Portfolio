@@ -37,6 +37,7 @@ export default class ArticleItemDataWrapper {
         this.date = dateStart
 
         this.faIcon = rawData.faIcon
+        this.icon = rawData.icon
         this.faIconColors = this._parseColor(rawData.faIconColors, theme)
 
         this.img = language.parseJsonText(rawData.img)
@@ -138,7 +139,7 @@ export default class ArticleItemDataWrapper {
         if(!rawPreview)
             return {}
 
-        const links = rawPreview["links"].map(rawLink => {
+        const links = (rawPreview["links"] || []).map(rawLink => {
             return this._parseLink(rawLink, language)
         })
 
@@ -212,7 +213,7 @@ export default class ArticleItemDataWrapper {
 
     listProps() {
         const props = []
-        const staticKeys = ["id", "label", "img", "faIcon", "faIconColors", "link", "dateStart", "dateEnd", "percentage"]
+        const staticKeys = ["id", "label", "img", "icon", "faIcon", "faIconColors", "link", "dateStart", "dateEnd", "percentage"]
         for (const key of staticKeys)
             props.push(this._parsePropForListing(key, this[key]))
 

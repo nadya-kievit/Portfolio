@@ -5,6 +5,7 @@ import AvatarView from "/src/components/generic/AvatarView.jsx"
 import Link from "/src/components/generic/Link.jsx"
 import {useViewport} from "/src/providers/ViewportProvider.jsx"
 import CopyButton from "/src/components/buttons/CopyButton.jsx"
+import ArticleItemPreviewMenu from "/src/components/articles/partials/ArticleItemPreviewMenu.jsx"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -95,6 +96,7 @@ function ArticleInfoListItem({ itemWrapper}) {
     return (
         <div className={`article-info-list-item ${hoverClass}`}>
             <AvatarView src={itemWrapper.img}
+                        icon={itemWrapper.icon}
                         faIcon={itemWrapper.faIconWithFallback}
                         style={itemWrapper.faIconStyle}
                         alt={itemWrapper.imageAlt}
@@ -124,6 +126,11 @@ function ArticleInfoListItem({ itemWrapper}) {
                                     buttonClassName={`ms-1 ms-lg-2 ps-1`}/>
                     )}
                 </div>
+
+                {itemWrapper.preview?.hasScreenshots && (
+                    <ArticleItemPreviewMenu itemWrapper={itemWrapper}
+                                            className={`article-info-list-item-preview-menu`}/>
+                )}
             </div>
         </div>
     )

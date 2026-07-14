@@ -100,6 +100,7 @@ function GalleryModalSwiper({ className, images, type }) {
         <Swiper slidesPerView={"auto"}
                 direction={"horizontal"}
                 spaceBetween={15}
+                centerInsufficientSlides={true}
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
                 className={`gallery-swiper gallery-swiper-${type} ${className}`}>

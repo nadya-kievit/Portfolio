@@ -22,4 +22,10 @@ div.avatar-view {
         background-color: transparent;
         color: inherit;
     }
+
+    .avatar-text-icon {
+        font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+        filter: brightness(0) invert(1);
+        line-height: 1;
+    }
 }

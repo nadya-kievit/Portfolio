@@ -107,6 +107,25 @@
                     }
                 },
                 {
+                    "id": 5,
+                    "img": "",
+                    "icon": "🪮",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "screenshots": ["images/pictures/braids.png"],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Braiding",
+                            "text": "My braiding journey began when I was 14 and started caring for my Mom's hair. Over time, I tackled more and more ambitious styles for friends and family with cornrows, box braids, extensions, etc. <p><p>Enjoy the pictures attached below to view my favorites."
+                        }
+                    }
+                },
+                {
                     "id": 3,
                     "faIcon": "fa-solid fa-dice",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -131,21 +150,6 @@
                         "en": {
                             "title": "{{UX}} design",
                             "text": "I'm currently pursuing this new interest through personal projects - [[Blokus]] and [[Pin Victoria]]."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-solid fa-kitchen-set",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {
-                            "title": "Cooking",
-                            "text": "Cooking is art for the senses, and another creative outlet. I enjoy trying new recipes, or designing my own. Current obsessions have been [[chili oil noodles]] and [[chickpea tikka masala]]"
                         }
                     }
                 },
