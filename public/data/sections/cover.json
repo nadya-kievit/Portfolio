@@ -112,8 +112,24 @@
                     "icon": "🪮",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
-                        "screenshots": ["images/pictures/braids.png"],
-                        "screenshotsAspectRatio": "16:9"
+                        "screenshots": [
+                            "images/pictures/braids_1.png",
+                            "images/pictures/braids_2.png",
+                            "images/pictures/braids_3.png",
+                            "images/pictures/braids_4.png",
+                            "images/pictures/braids_5.png",
+                            "images/pictures/braids_6.png",
+                            "images/pictures/braids_7.png",
+                            "images/pictures/braids_8.png",
+                            "images/pictures/braids_9.png",
+                            "images/pictures/braids_10.png",
+                            "images/pictures/braids_11.png",
+                            "images/pictures/braids_12.png",
+                            "images/pictures/braids_13.png",
+                            "images/pictures/braids_14.png",
+                            "images/pictures/braids_15.png"
+                        ],
+                        "screenshotsAspectRatio": "9:16"
                     },
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
@@ -141,7 +157,7 @@
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-solid fa-window-restore",
+                    "faIcon": "fa-solid fa-desktop",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
