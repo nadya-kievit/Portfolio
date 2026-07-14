@@ -34,8 +34,22 @@
                             "country": "Canada",
                             "institution": "Pacific Forestry Centre",
                             "text": "Improved the security, usability, reliability, and testing of NFIS and NFI web systems by updating authentication to [[OWASP]] standards, strengthening validation and [[logging]], expanding automated tests, [[automating performance testing]], and fixing data integrity and server issues",
+                            "details": [
+                                {
+                                    "title": "Access Security Updates",
+                                    "text": "Enhanced the security of the NFIS login system, updating verification processes to comply with OWASP standards. Added logging throughout the system, created documentation on logging practices, and gave presentations on security tools (Graudit, OWASP Zap). Developed and updated JUnit and Selenium tests."
+                                },
+                                {
+                                    "title": "Data Request Feature",
+                                    "text": "Improved usability and functionality of the NFI Data Request platform by fixing bugs, implementing user validation, and ensuring data integrity. Collaborated with admins to gather requirements and iteratively refine features."
+                                },
+                                {
+                                    "title": "Performance Testing",
+                                    "text": "Enhanced Apache JMeter tests for server feature validation, writing Groovy scripts for multi-server testing and a Bash script to automate configuration file population, streamlining the testing process and identifying previously undetected bugs."
+                                }
+                            ],
                             "list": [],
-                            "tags": ["Java", "HTML", "CSS", "JavaScript", "Selenium", "Mercurial"]
+                            "tags": ["Java", "HTML", "CSS", "JavaScript", "Linux", "Selenium", "Mercurial"]
                         }
                     }
                 },
