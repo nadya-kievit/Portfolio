@@ -134,6 +134,23 @@ function ArticleItemInfoForTimelinesBody({ itemWrapper, className = "" }) {
                     ))}
                 </ul>
             )}
+
+            {itemWrapper.locales.details?.length > 0 && (
+                <div className={`article-timeline-item-info-for-timelines-body-details ${textClass}`}>
+                    {itemWrapper.locales.details.map((detail, key) => (
+                        <details className={`article-timeline-item-info-for-timelines-body-detail`}
+                                 key={key}>
+                            <summary className={`article-timeline-item-info-for-timelines-body-detail-title`}>
+                                <span className={`article-timeline-item-info-for-timelines-body-detail-arrow`}
+                                      aria-hidden="true">&gt;</span>
+                                <span dangerouslySetInnerHTML={{__html: detail.title}}/>
+                            </summary>
+                            <div className={`article-timeline-item-info-for-timelines-body-detail-text`}
+                                 dangerouslySetInnerHTML={{__html: detail.text}}/>
+                        </details>
+                    ))}
+                </div>
+            )}
         </div>
     )
 }

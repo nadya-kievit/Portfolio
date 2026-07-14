@@ -124,12 +124,20 @@ export default class ArticleItemDataWrapper {
             tags: language.getTranslation(locales, "tags", []),
             text: language.getTranslation(locales, "text", null),
             label: language.getTranslation(locales, "label", null),
+            details: language.getTranslation(locales, "details", []),
         }
 
         if(translations.list && Array.isArray(translations.list)) {
             translations.list = translations.list.map(item => {
                 return language.parseJsonText(item)
             })
+        }
+
+        if(Array.isArray(translations.details)) {
+            translations.details = translations.details.map(detail => ({
+                title: language.parseJsonText(detail.title || ""),
+                text: language.parseJsonText(detail.text || "")
+            }))
         }
 
         return translations

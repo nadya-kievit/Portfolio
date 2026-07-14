@@ -52,9 +52,23 @@
                             "province": "BC",
                             "country": "Canada",
                             "institution": "Bailey Electronics",
-                            "text": "Served as a full-stack developer within the Manufacturing Engineering department, maintaining and improving a cross-department production dashboard.",
+                            "text": "I was a [[full-stack software developer]] in the Manufacturing Engineering department at Bailey Electronics. In this role, I was responsible for maintaining and updating the Production Dashboard, a web application that uses backend API calls and synchronizes with both a third-party database system and a local database. The dashboard supports numerous production operations across multiple departments, including printing work orders, designing and printing various labels, generating reports, tracking inventory, and reporting/resolving issues. I was also responsible for creating and updating several Grafana dashboards.",
+                            "details": [
+                                    {
+                                        "title": "Containers",
+                                        "text": "I developed the Containers system to support the organization and shipment of high-volume work orders, particularly for the new PLJ line, where existing processes for handling serialized assemblies were no longer robust enough. The tool was created to improve how large quantities of units were grouped, tracked, and prepared for shipment, with a strong focus on usability in a real production environment. By organizing serialized assemblies into manageable container groups, it improved traceability, shipment organization, and issue isolation on high-volume builds. This system successfully supported 21 work orders on the PLJ line totaling 4,000 units."
+                                    },
+                                    {
+                                        "title": "Issue Escalation Interface",
+                                        "text": "I designed and developed the Issue Escalation Interface to improve how issues are reported, communicated, and resolved. Before this system, issues were tracked manually on whiteboards and passed between departments through meetings and informal communication, making it difficult to maintain visibility, assign ownership, and retain information for future reference. This system created a centralized process for reporting issues, routing them to the appropriate people based on role, tracking ownership and resolution progress, and preserving a complete history of each issue. In addition to supporting faster and more organized responses to problems, it also captures data that can be used to identify recurring issues, measure resolution time, and improve decision-making. I led the initiative from concept through implementation and training."
+                                    },
+                                    {
+                                        "title": "Part Shortage Report",
+                                        "text": "This tool was created to address a recurring production problem: work orders were being delayed because required parts were backordered, which led to late shipments, customer frustration, and lost revenue. At the time, the team’s only visibility into these shortages was a tool on the picking terminal that looked just five days ahead, which was not enough time to respond effectively. I developed a tool that generates the same report for any future date, making it possible to identify risks earlier and plan orders more effectively. By giving the company better advance visibility into part shortages, this tool helps reduce delays, improve on-time completion of work orders, and support more reliable delivery to customers."
+                                    }
+                            ],
                             "list": [],
-                            "tags": ["PHP", "React", "Javascript", "SQL", "Docker", "Netsuite", "DBeaver", "Git", "Zebra Designer"]
+                            "tags": ["PHP", "React", "Javascript", "SQL", "Docker", "Netsuite", "DBeaver", "Git", "Zebra Designer", "Grafana"]
                         }
                     }
                 }
