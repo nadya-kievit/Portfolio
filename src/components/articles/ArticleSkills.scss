@@ -111,21 +111,15 @@ div.article-skills-item-title {
         color: var(--theme-texts-light-2);
     }
 
-    span.article-skills-item-title-percentage {
-        color: var(--theme-texts-light);
-    }
 }
 
-div.article-skills-item-progress {
+div.article-skills-item-line {
+    width: 100%;
+    height: 4px;
     margin-top: 4px;
-    .progress-bar {
-        background-color: var(--theme-primary);
-    }
-}
-
-div.article-skills-item-experience {
-    margin-top: 4px;
-    color: var(--theme-texts-light-2);
+    border-radius: 999px;
+    background-color: var(--theme-primary);
+    opacity: 0.35;
 }
 
 div.article-skills-item-description {
