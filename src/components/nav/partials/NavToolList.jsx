@@ -1,16 +1,13 @@
 import "./NavToolList.scss"
-import React, {useEffect, useState} from 'react'
-import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import React from 'react'
 import {useTheme} from "/src/providers/ThemeProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 import {useData} from "/src/providers/DataProvider.jsx"
-import NavToolLanguagePicker from "/src/components/nav/tools/NavToolLanguagePicker.jsx"
 import NavToolThemePicker from "/src/components/nav/tools/NavToolThemePicker.jsx"
 import NavToolSettings from "/src/components/nav/tools/NavToolSettings.jsx"
 import NavToolResumeDownloader from "/src/components/nav/tools/NavToolResumeDownloader.jsx"
 
 function NavToolList({ expanded }) {
-    const language = useLanguage()
     const theme = useTheme()
     const feedbacks = useFeedbacks()
     const data = useData()
@@ -21,7 +18,6 @@ function NavToolList({ expanded }) {
     const shrinkClass = ``
 
     const widgets = [
-        ...(language.supportsMultipleLanguages ? ["language"] : []),
         ...(theme.supportsMultipleThemes ? [NavToolSettings.Options.THEME] : []),
         ...(feedbacks.animatedCursorEnabled ? [NavToolSettings.Options.CURSOR] : []),
         ...(profile.resumePdfUrl ? [NavToolSettings.Options.DOWNLOAD_RESUME] : []),
