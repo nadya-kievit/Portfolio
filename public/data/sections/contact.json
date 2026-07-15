@@ -6,24 +6,6 @@
                 "title_short_nav": "Contact",
                 "title_long_prefix": "Don't hesitate to",
                 "title_long": "{{Contact}} Me"
-            },
-            "es": {
-                "title_short": "Contacto",
-                "title_short_nav": "Contacto",
-                "title_long_prefix": "No dudes en",
-                "title_long": "{{Contácta}}me"
-            },
-            "fr": {
-                "title_short": "Contact",
-                "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
-                "title_long": "Me {{Contacter}}"
-            },
-            "ko": {
-                "title_short": "연락처",
-                "title_short_nav": "연락처",
-                "title_long_prefix": "주저하지 말고",
-                "title_long": "{{연락}} 주세요"
             }
         }
     },
@@ -80,20 +62,6 @@
                 "ko": {"title": "또는 {{원하시면}}..."}
             },
             "items": [
-                {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (778) 552-8282",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
-                    "copyToClipboardButton": true,
-                    "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
-                    }
-                },
                 {
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",

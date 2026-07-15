@@ -32,7 +32,9 @@ export default class ArticleItemDataWrapper {
         this.dateStartDisplayAsExperienceTime = language.getExperienceTimeString(this.dateStart)
 
         this.dateEnd = dateEnd
-        this.dateEndDisplay = language.getDateLocaleString(dateEnd)
+        this.dateEndDisplay = rawData.dateEnd?.ongoing ?
+            `<strong>${language.getString("ongoing")}</strong>` :
+            language.getDateLocaleString(dateEnd)
 
         this.date = dateStart
 

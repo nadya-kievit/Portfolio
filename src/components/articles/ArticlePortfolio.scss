@@ -25,16 +25,6 @@ div.article-portfolio-items {
     gap: var(--item-gap);
 }
 
-/** ---------- 2 ITEMS PER ROW ---------------- */
-div.article-portfolio-items-2-per-row, div.article-portfolio-items-3-per-row {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-/** ---------- 3 ITEMS PER ROW ---------------- */
-div.article-portfolio-items-3-per-row {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 div.article-portfolio-item {
     position: relative;
     display: flex;
@@ -78,6 +68,10 @@ div.article-portfolio-item-title {
         margin-top: 5px;
         margin-left: 8px;
     }
+
+    div.article-portfolio-item-title-date {
+        margin-top: 10px;
+    }
 }
 
 div.article-portfolio-item-body {
@@ -92,4 +86,67 @@ div.article-portfolio-item-body {
 
 div.article-portfolio-item-footer {
     margin-top: 10px;
+}
+
+/** ---------------- WIDE ROW LAYOUT ---------------- */
+@include media-breakpoint-up(md) {
+    div.article-portfolio-items {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: calc(var(--padding) + var(--avatar-size) / 2);
+            bottom: calc(var(--padding) + var(--avatar-size) / 2);
+            left: calc(var(--padding) + var(--avatar-size) / 2 - var(--avatar-border-size) / 2);
+            width: var(--avatar-border-size);
+            background-color: var(--theme-timeline-line-color);
+            z-index: 0;
+        }
+    }
+
+    div.article-portfolio-item {
+        display: grid;
+        grid-template-columns: var(--avatar-size) minmax(0, 1fr);
+        grid-template-rows: auto 1fr auto;
+        column-gap: 28px;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    div.article-portfolio-item-avatar {
+        position: static;
+        grid-column: 1;
+        grid-row: 1 / 4;
+        align-self: center;
+        border-color: var(--theme-timeline-line-color);
+        z-index: 2;
+    }
+
+    div.article-portfolio-item-title,
+    div.article-portfolio-item-body,
+    div.article-portfolio-item-footer {
+        grid-column: 2;
+        width: 100%;
+    }
+
+    div.article-portfolio-item-title {
+        grid-row: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    div.article-portfolio-item-title-date {
+        min-width: 220px;
+        margin-top: 0;
+    }
+
+    div.article-portfolio-item-body {
+        grid-row: 2;
+    }
+
+    div.article-portfolio-item-footer {
+        grid-row: 3;
+    }
 }

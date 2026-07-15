@@ -29,29 +29,32 @@
             "items": [
                 {
                     "id": 1,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "dateStart": {"year": 2026, "month": 6},
+                    "dateEnd": {"ongoing": true},
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/pin-victoria-logo.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/nadya-kievit/Hiking-Trails-Web-App", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {"href": "https://github.com/nadya-kievit/Pin-Victoria", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [
-                            "images/pictures/hiking-trails-web-app.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9"
+                        "screenshots": ["images/pictures/pin-victoria.png"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Hiking Trails",
-                            "text": "A full-stack, single page web app for viewing and recording hiking trails in Victoria, BC. HTML, Javascript, and CSS frontend, Java backend, SQL database, and JUnit tests.",
-                            "tags": ["Web App", "Unit Tests", "Database"]
+                            "title": "Pin Victoria",
+                            "text": "Pin Victoria is a progressive web app with a fairy tale style map of Victoria where users can pin new discoveries throughout the city. Built with React, TypeScript, Vite, MapLibre GL JS, CSS, and IndexedDB, with installable PWA functionality and local data storage. <p><p> This is a passion project that combines my love for discovering new places in the city, reading and escaping into fantasy worlds, and UI/UX design.",
+                            "tags": ["PWA", "React", "TypeScript", "Vite", "MapLibre GL JS", "CSS", "IndexedDB"]
                         }
                     }
                 },
                 {
                     "id": 2,
+                    "dateStart": {"year": 2026, "month": 5},
+                    "dateEnd": {"ongoing": true},
                     "categoryId": "category_apps",
                     "img": "images/pictures/blokus-logo.png",
                     "faIcon": "",
@@ -72,30 +75,33 @@
                     "locales": {
                         "en": {
                             "title": "Blokus",
-                            "text": "A web app for the popular game [[Blokus]]. Phase 1 of the game has been deployed and can be reach at the link below - keep an eye out for new updates ᵔ ᵕ ᵔ",
-                            "tags": ["React", "Vite", "FastAPI", "WebSockets", "Python", "JavaScript"]
+                            "text": "This is a web app for the popular board game [[Blokus]]. It is built with a React and Vite frontend, styled with Material UI and custom CSS, and connected to a Python FastAPI backend through HTTP requests and WebSockets. <p><p>Phase 1 of the game has been deployed and can be reach at the link below. Keep an eye out for new updates ᵔ ᵕ ᵔ",
+                            "tags": ["React", "Vite", "FastAPI", "Material UI", "CSS", "WebSockets", "Python", "JavaScript"]
                         }
                     }
                 },
                 {
-                    "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "id": 1,
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"year": 2025, "month": 6},
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/hiking-trails-logo.jpg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/nadya-kievit/Pin-Victoria", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {"href": "https://github.com/nadya-kievit/Hiking-Trails-Web-App", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "screenshots": [
+                            "images/pictures/hiking-trails-web-app.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
-                            "title": "Pin Victoria",
-                            "text": "",
-                            "tags": ["React", "Organization", "Notes"]
+                            "title": "Hiking Trails",
+                            "text": "This is a full-stack, single page web app for viewing and recording hiking trails in Victoria, BC. It features an HTML, Javascript, and CSS frontend, Java backend, SQL database, and JUnit tests.",
+                            "tags": ["Web App", "JUnit", "HTML", "Javascript", "CSS", "Java", "SQL"]
                         }
                     }
                 }

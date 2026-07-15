@@ -2,12 +2,11 @@ import "./ArticlePortfolio.scss"
 import React, {useEffect, useState} from 'react'
 import Article from "/src/components/articles/base/Article.jsx"
 import Transitionable from "/src/components/capabilities/Transitionable.jsx"
-import {useViewport} from "/src/providers/ViewportProvider.jsx"
-import {useConstants} from "/src/hooks/constants.js"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
 import {Tag, Tags} from "/src/components/generic/Tags.jsx"
 import ArticleItemPreviewMenu from "/src/components/articles/partials/ArticleItemPreviewMenu.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import DateBadge from "/src/components/widgets/DateBadge.jsx"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -38,15 +37,9 @@ function ArticlePortfolio({ dataWrapper, id }) {
  * @constructor
  */
 function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
-    const constants = useConstants()
     const language = useLanguage()
-    const viewport = useViewport()
 
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
-    const customBreakpoint = viewport.getCustomBreakpoint(constants.SWIPER_BREAKPOINTS_FOR_THREE_SLIDES)
-
-    const itemsPerRow = customBreakpoint?.slidesPerView || 1
-    const itemsPerRowClass = `article-portfolio-items-${itemsPerRow}-per-row`
 
     const refreshFlag = dataWrapper.categories?.length ?
         selectedItemCategoryId + "-" + language.getSelectedLanguage()?.id :
@@ -58,7 +51,7 @@ function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
                             refreshFlag={refreshFlag}
                             delayBetweenItems={100}
                             animation={Transitionable.Animations.POP}
-                            className={`article-portfolio-items ${itemsPerRowClass}`}>
+                            className={`article-portfolio-items`}>
                 {filteredItems.map((itemWrapper, key) => (
                     <ArticlePortfolioItem itemWrapper={itemWrapper}
                                           key={key}/>
@@ -68,7 +61,7 @@ function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
     }
     else {
         return (
-            <div className={`article-portfolio-items ${itemsPerRowClass} mb-3 mb-lg-2`}>
+            <div className={`article-portfolio-items mb-3 mb-lg-2`}>
                 {filteredItems.map((itemWrapper, key) => (
                     <ArticlePortfolioItem itemWrapper={itemWrapper}
                                           key={key}/>
@@ -105,13 +98,23 @@ function ArticlePortfolioItem({ itemWrapper }) {
  * @constructor
  */
 function ArticlePortfolioItemTitle({ itemWrapper }) {
+    const hasDate = itemWrapper.dateStartDisplay || itemWrapper.dateEndDisplay
+
     return (
         <div className={`article-portfolio-item-title`}>
-            <h5 className={`article-portfolio-item-title-main`}
-                dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
+            <div className={`article-portfolio-item-title-copy`}>
+                <h5 className={`article-portfolio-item-title-main`}
+                    dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
 
-            <div className={`article-portfolio-item-title-category text-2`}
-                 dangerouslySetInnerHTML={{__html: itemWrapper.category?.label }}/>
+                <div className={`article-portfolio-item-title-category text-2`}
+                     dangerouslySetInnerHTML={{__html: itemWrapper.category?.label }}/>
+            </div>
+
+            {hasDate && (
+                <DateBadge dateStart={itemWrapper.dateStartDisplay}
+                           dateEnd={itemWrapper.dateEndDisplay}
+                           className={`article-portfolio-item-title-date`}/>
+            )}
         </div>
     )
 }
