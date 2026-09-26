@@ -62,7 +62,7 @@
                     "preview": {
                         "links": [
                             {"href": "https://github.com/nadya-kievit/Blokus", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://blokus-liard.vercel.app/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google"}
+                            {"href": "https://blokit.vercel.app/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google"}
                         ],
                         "screenshots": [
                             "images/pictures/blokus-1.png",
