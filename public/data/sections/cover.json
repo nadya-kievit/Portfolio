@@ -151,7 +151,7 @@
                     "locales": {
                         "en": {
                             "title": "Gaming",
-                            "text": "I love playing card and board games with friends or family. Over time my partner has dragged me over to the world of video games as well. This crossover is what inspired me to turn one of my favorite board games, [[Blokus]], into a web game."
+                            "text": "I've always loved playing card and board games with friends and family, and over time, my partner has introduced me to the world of video games too. This blend of interests inspired me to create Tipto, a web-based adaptation of one of my favorite board game, [[Blokus]], with the goal of bringing that same fun and friendly competition online."
                         }
                     }
                 },
@@ -165,7 +165,7 @@
                     "locales": {
                         "en": {
                             "title": "{{UX}} design",
-                            "text": "I'm currently pursuing this new interest through personal projects - [[Blokus]] and [[Pin Victoria]]."
+                            "text": "I'm currently pursuing this new interest through personal projects - [[Tipto]] and [[Pin Victoria]]."
                         }
                     }
                 },

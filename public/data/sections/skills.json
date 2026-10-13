@@ -30,7 +30,7 @@
                     "locales": {
                         "en": {
                             "title": "Frontend & UI/UX Development",
-                            "text": "Applied at Bailey Electronics while improving the Production Dashboard, and in Hiking Trails, Blokus and Pin Victoria personal projects."
+                            "text": "Applied at Bailey Electronics while improving the Production Dashboard, and in Hiking Trails, Tipto and Pin Victoria personal projects."
                         }
                     }
                 },
@@ -44,7 +44,7 @@
                     "locales": {
                         "en": {
                             "title": "Full-Stack Development",
-                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and through personal projects such as my hiking trails app and multiplayer Blokus game, building frontend features, backend services, API integrations, and database-driven tools."
+                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and through personal projects such as my hiking trails app and multiplayer Tipto game, building frontend features, backend services, API integrations, and database-driven tools."
                         }
                     }
                 },
@@ -133,7 +133,7 @@
                     "locales": {
                         "en": {
                             "title": "Python",
-                            "text": "Applied in UVic coursework and personal projects, including the backend of my multiplayer Blokus game.",
+                            "text": "Applied in UVic coursework and personal projects, including the backend of my multiplayer Tipto game.",
                             "level": ""
                         }
                     }
@@ -178,7 +178,7 @@
                     "locales": {
                         "en": {
                             "title": "REST API development",
-                            "text": "Applied at Bailey Electronics for production tools and third-party integrations, and in my Blokus project for game and player communication.",
+                            "text": "Applied at Bailey Electronics for production tools and third-party integrations, and in my Tipto project for game and player communication.",
                             "level": ""
                         }
                     }
@@ -225,7 +225,7 @@
                     "locales": {
                         "en": {
                             "title": "React",
-                            "text": "Applied at Bailey Electronics on the Production Dashboard and in personal projects including my multiplayer Blokus game and Pin Victoria.",
+                            "text": "Applied at Bailey Electronics on the Production Dashboard and in personal projects including my multiplayer Tipto game and Pin Victoria.",
                             "level": ""
                         }
                     }
@@ -240,7 +240,7 @@
                     "locales": {
                         "en": {
                             "title": "Javascript",
-                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and across my hiking trails and Blokus projects.",
+                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and across my hiking trails and Tipto projects.",
                             "level": ""
                         }
                     }
@@ -270,7 +270,7 @@
                     "locales": {
                         "en": {
                             "title": "CSS",
-                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and in my hiking trails, Blokus, and Pin Victoria projects.",
+                            "text": "Applied at Bailey Electronics, the Pacific Forestry Centre, and in my hiking trails, Tipto, and Pin Victoria projects.",
                             "level": ""
                         }
                     }

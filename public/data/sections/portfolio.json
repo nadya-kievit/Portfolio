@@ -56,26 +56,25 @@
                     "dateStart": {"year": 2026, "month": 5},
                     "dateEnd": {"ongoing": true},
                     "categoryId": "category_apps",
-                    "img": "images/pictures/blokus-logo.png",
+                    "img": "images/pictures/tipto-logo.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/nadya-kievit/Blokus", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://blokit.vercel.app/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google"}
+                            {"href": "https://github.com/nadya-kievit/Tipto", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://tipto.vercel.app/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google"}
                         ],
                         "screenshots": [
-                            "images/pictures/blokus-1.png",
-                            "images/pictures/blokus-3.png",
-                            "images/pictures/blokus-2.png",
-                            "images/pictures/blokus-4.png"
+                            "images/pictures/tipto-1.png",
+                            "images/pictures/tipto-3.png",
+                            "images/pictures/tipto-2.png"
                         ],
                         "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
-                            "title": "Blokus",
-                            "text": "This is a web app for the popular board game [[Blokus]]. It is built with a React and Vite frontend, styled with Material UI and custom CSS, and connected to a Python FastAPI backend through HTTP requests and WebSockets. <p><p>Phase 1 of the game has been deployed and can be reach at the link below. Keep an eye out for new updates ᵔ ᵕ ᵔ",
+                            "title": "Tipto",
+                            "text": "Tipto is a web-based strategy board game inspired by [[Blokus]], built with a React and Vite frontend, styled with Material UI and custom CSS, and powered by a Python FastAPI backend using HTTP requests and WebSockets. The first version of Tipto is live and playable at the link below, with more features and improvements on the way! ᵔ ᵕ ᵔ",
                             "tags": ["React", "Vite", "FastAPI", "Material UI", "CSS", "WebSockets", "Python", "JavaScript"]
                         }
                     }
