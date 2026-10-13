@@ -37,17 +37,17 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/nadya-kievit/Pin-Victoria", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {"href": "https://github.com/nadya-kievit/PinVictoria", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": ["images/pictures/pin-victoria.png"],
+                        "screenshots": [],
                         "screenshotsAspectRatio": "16:9",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Pin Victoria",
-                            "text": "Pin Victoria is a progressive web app with a fairy tale style map of Victoria where users can pin new discoveries throughout the city. Built with React, TypeScript, Vite, MapLibre GL JS, CSS, and IndexedDB, with installable PWA functionality and local data storage. <p><p> This is a passion project that combines my love for discovering new places in the city, reading and escaping into fantasy worlds, and UI/UX design.",
-                            "tags": ["PWA", "React", "TypeScript", "Vite", "MapLibre GL JS", "CSS", "IndexedDB"]
+                            "text": "Pin Victoria is a Flutter app in development featuring a custom, fairy-tale-inspired interactive map of Greater Victoria. Built with Dart, custom vector rendering, and semantic zoom, the map combines accurate real-world geography with a hand-illustrated, storybook aesthetic. Users will be able to explore the region, discover new places, and save their favorite locations. <p><p> This passion project brings together my love for exploring new places, reading and escaping into fantasy worlds, and UI/UX design.",
+                            "tags": ["Flutter", "Dart"]
                         }
                     }
                 },
